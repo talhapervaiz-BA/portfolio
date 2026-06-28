@@ -1,0 +1,11 @@
+{
+  "name": "talha-pervaiz-portfolio",
+  "version": "1.0.0",
+  "description": "Talha Pervaiz — Senior Business Analyst portfolio site with Decap CMS",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
