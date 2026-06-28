@@ -1,0 +1,300 @@
+{
+  "site": {
+    "title": "Talha Pervaiz — Senior Business Analyst | Insurance, Reinsurance & Takaful Domain Architect"
+  },
+  "hero": {
+    "badge": "Available for Senior BA / Domain Architect Roles",
+    "name_line1": "TALHA",
+    "name_line2": "PERVAIZ",
+    "title": "Senior Business Analyst | Insurance, Reinsurance & Takaful Domain Architect",
+    "tagline": "<strong>7.5+ years</strong> designing enterprise-grade Insurance &amp; Reinsurance ERP platforms &mdash; spanning conventional Non-Life underwriting, Retakaful (Islamic Insurance), Multi-Layer Retrocession, and XoL programs. Sole domain architect behind <strong>PRUDENT</strong>, the national reinsurance platform serving Pakistan's entire insurance market."
+  },
+  "about": {
+    "heading": "Turning Complex Risk Logic into Scalable Systems",
+    "paragraphs": [
+      "Insurance, Reinsurance &amp; Takaful Domain Architect with <strong>7.5+ years</strong> of specialized experience in the functional design and implementation of national-level Insurance &amp; Reinsurance ERP platforms. My expertise spans the full insurance value chain &mdash; from <strong>primary non-life underwriting</strong> through <strong>treaty and facultative reinsurance</strong> to <strong>retrocession</strong> and <strong>Shariah-compliant Takaful operations</strong>. I bridge Insurance, Reinsurance, and Retakaful domains with deep functional knowledge that translates across markets and regulatory frameworks.",
+      "As the <strong>sole domain architect</strong> for PRUDENT at Pakistan Reinsurance Company Limited (PRCL), Pakistan's only national reinsurer, I've designed and delivered the complete system architecture serving <strong>100+ cedants</strong> across all non-life lines of business &mdash; including <strong>Multi-Layer Retrocession</strong>, <strong>XoL Layer Reinstatements</strong>, and a parallel <strong>Retakaful</strong> track for Pakistan's Islamic insurance market."
+    ],
+    "stats": [
+      { "number": "7.5+", "label": "Years in Insurance &amp; Reinsurance Domain" },
+      { "number": "100+", "label": "Cedants Served" },
+      { "number": "7",    "label": "Core Modules Architected" },
+      { "number": "15%",  "label": "Recovery Error Reduction" }
+    ]
+  },
+  "expertise": {
+    "heading": "What I Design &amp; Deliver",
+    "subtitle": "Nine core competency areas spanning the full Insurance &amp; Reinsurance value chain &mdash; from treaty inception to Shariah-compliant Retakaful operations and legacy data migration.",
+    "cards": [
+      {
+        "icon": "📋",
+        "title": "Treaty Management",
+        "description": "Quota Share, Surplus, Sliding Scale Commissions, GNPI Adjustments, MDP Calculation, Multi-stage Approval Workflows across all non-life lines."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Facultative Operations",
+        "description": "Risk proposal lifecycle, multi-class underwriting (Fire, Marine, Engineering, Aviation, Accident), CRESTA Zone mapping, automated payment advice."
+      },
+      {
+        "icon": "⚙️",
+        "title": "Retrocession Engine",
+        "description": "Multi-layer Retro-Treaty (XOL) and Retro-Fac recovery, PEPRA-compliant tendering, foreign placement, GNPI adjustment engine, layer reinstatement."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Claims Management",
+        "description": "PLA-to-Claim automation, 5-level approval workflow, loss calculation engine, outstanding pool management, SECP regulatory reporting."
+      },
+      {
+        "icon": "☪️",
+        "title": "Retakaful (Islamic Reinsurance)",
+        "description": "Wakala fee calculation, Mudaraba profit-sharing, Surplus Distribution, Participant Retakaful Fund management, Shariah-compliant terminology engine."
+      },
+      {
+        "icon": "📊",
+        "title": "Excess of Loss (XOL)",
+        "description": "Layer structure design, MDP statements, reinstatement premium calculation, competitive broker bidding, multi-program management (PRCL + NICL)."
+      },
+      {
+        "icon": "🏦",
+        "title": "Financial Architecture",
+        "description": "Underwriting-to-GL account mapping, multi-currency forex validation, WHT logic, DR/CR Advice generation, Oracle EBS integration."
+      },
+      {
+        "icon": "📈",
+        "title": "Analytics &amp; Reporting",
+        "description": "Automated rolling multi-year treaty statistics, risk profiling, exposure monitoring, SECP regulatory returns, IBNR reporting."
+      },
+      {
+        "icon": "🔄",
+        "title": "Data Migration &amp; UAT",
+        "description": "Legacy-to-ERP data migration (60+ years), multi-module mapping frameworks, reconciliation workflows, modular UAT strategy across dual business structures."
+      }
+    ]
+  },
+  "caseStudies": {
+    "heading": "Delivered at National Scale",
+    "subtitle": "Nine case studies. One national reinsurer. Each represents months of domain analysis, specification authoring, and implementation oversight &mdash; spanning conventional reinsurance and Shariah-compliant Retakaful operations.",
+    "studies": [
+      {
+        "id": "cs1",
+        "number": "CS\u201301",
+        "title": "Treaty Management Module",
+        "client": "PRCL \u2014 Treaty Department",
+        "tags": ["Proportional", "Non-Proportional", "GL Integration"],
+        "summary": "Replaced manual spreadsheet-based treaty analytics with a fully automated, multi-tab Treaty Slip architecture covering Quota Share, Surplus, and XOL structures for 100+ cedants \u2014 directly connected to Oracle EBS GL.",
+        "challenge": "PRCL managed all treaty reinsurance operations \u2014 covering 100+ cedants across Quota Share, Surplus, and XOL structures \u2014 through manual spreadsheets and paper-based approval chains. Treaty statistics spanning 5+ years were compiled manually, and there was no automated link between treaty economics and the general ledger.",
+        "solution": "Designed the complete Treaty Management Module within PRUDENT ERP, covering the full treaty lifecycle: <strong>Statistics &rarr; Agreement &rarr; Slip &rarr; Account Rendering &rarr; Bordereaux &rarr; Outstanding Loss Booking</strong>. Built multi-tab Treaty Slip architecture supporting both Proportional (Quota Share with sliding scale commissions, Surplus with line-based cession) and Non-Proportional (Risk XOL, Cat XOL, Crop Stop Loss) structures. Engineered a multi-stage approval workflow (Initiator &rarr; Reviewer 1 &rarr; Reviewer 2 &rarr; Approver) with auto-generated completion flags. Designed auto-calculated treaty statistics engine covering Loss Incurred Ratio, Technical Balance, and Net U/W Balance across 5-year rolling windows. Linked treaty codes directly to GL entries for seamless financial integration.",
+        "impacts": [
+          "Eliminated spreadsheet dependency for treaty analytics",
+          "Standardized data capture across all non-life lines",
+          "Connected treaty economics directly to GL entries",
+          "Closed reconciliation gaps between Underwriting &amp; Finance"
+        ]
+      },
+      {
+        "id": "cs2",
+        "number": "CS\u201302",
+        "title": "Facultative Operations Module",
+        "client": "PRCL \u2014 5 Underwriting Departments",
+        "tags": ["Legacy Replacement", "CRESTA Mapping", "15+ MIS Reports"],
+        "summary": "Replaced a COBOL-era legacy system (RMS) across five underwriting departments with a fully digitized facultative risk lifecycle \u2014 from multi-tab Request Note with CRESTA Zone mapping to automated Acceptance Letters and 15+ MIS reports.",
+        "challenge": "Five underwriting departments managed facultative reinsurance through a combination of a legacy COBOL-era system (RMS) and manual processes. Risk proposals, acceptance letters, closing particulars, and payment advice were handled through paper files and email chains with no structured audit trail.",
+        "solution": "Designed the end-to-end Facultative Management Module covering: multi-tab Request Note screens (General, Conveyance, Share of Risk, UW Limit, Co-Insurer Panel, Deductibles, Premium Payment Plan, Risk Situation with <strong>CRESTA Zone mapping</strong>, UW History auto-fetch, Loss History, Conditions), Note Sheet Summary for structured approval routing, automated Acceptance/Regret Letter generation, Closing Particulars and Debit/Credit Note generation, Marine Cargo Bordereaux management, and Endorsement workflows (Financial and Non-Financial). Built <strong>15+ MIS reports</strong> including Risk Profile, Collective Exposure, CRESTA Zone Report, Top 50/100 Sum Insured, Unearned Premium Report.",
+        "impacts": [
+          "Replaced a COBOL-era legacy system",
+          "Digitized risk proposal-to-payment cycle for 5 departments",
+          "Introduced structured audit trails across operations",
+          "Data-driven portfolio management via 15+ MIS reports"
+        ]
+      },
+      {
+        "id": "cs3",
+        "number": "CS\u201303",
+        "title": "Claims Management Module",
+        "client": "PRCL \u2014 Claim Department (11 users)",
+        "tags": ["Multi-class Claims", "5-Level Approval", "SECP Reporting"],
+        "summary": "Replaced 7+ years of Excel-based claim tracking with an end-to-end automated claims system featuring PLA-to-Claim automation, dual-currency recording, a 5-level approval hierarchy, and automated SECP regulatory reporting.",
+        "challenge": "The claim department managed a multi-year, multi-class claims portfolio entirely in Excel. Weekly management reports, SECP regulatory returns, IBNR data, and outstanding aging reports spanning 2012\u20132019 were all compiled manually. No automated link existed between facultative policy data and claim processing.",
+        "solution": "Authored the complete Functional Specification Document and designed the end-to-end Claims module covering: PLA entry with auto-reserve creation, dual-currency claim recording with forex override capability, loss calculation engine (RI deductible, policy deductible, depreciation, average/under-insurance, salvage), <strong>5-level approval hierarchy</strong> (Junior Officer &rarr; Senior Officer &rarr; AM &rarr; Director Audit &rarr; Director UW), auto-generated Credit Notes and Rejection Letters, endorsement workflows for partial payments/salvage/recovery, and real-time Outstanding Pool management. Deep integration with the Facultative module \u2014 all policy data auto-fetched, eliminating dual keying.",
+        "impacts": [
+          "Replaced 7+ years of manual Excel-based claim tracking",
+          "Automated weekly management reports &amp; SECP returns",
+          "Enforced structured governance across 11-person department",
+          "Automated IBNR reporting pipeline"
+        ]
+      },
+      {
+        "id": "cs4",
+        "number": "CS\u201304",
+        "title": "Retro-Treaty \u2014 XOL Layer Management",
+        "client": "PRCL \u2014 Foreign Treaty Department",
+        "tags": ["XOL Layers", "GNPI Adjustment", "Reinstatement", "Multi-Program"],
+        "summary": "Engineered the Retro-Treaty module managing PRCL's complete XOL retrocession program \u2014 automating multi-layer priority arithmetic, GNPI adjustment calculations, MDP installment tracking, and separate NICL/PRCL recovery flows that were previously entirely paper-driven.",
+        "challenge": "PRCL's Retro-Treaty (XOL) program \u2014 protecting the reinsurer's own net exposure through multi-layer excess of loss structures \u2014 was managed entirely manually. The program involved dual management of PRCL and NICL programs, layer structure design with cascading priorities, GNPI adjustment calculations at treaty expiry, and reinstatement premium tracking across multiple layers and years. All premium calculations, MDP installment schedules, and loss recovery workflows were paper-driven.",
+        "solution": "Engineered the Retro-Treaty module managing PRCL's complete XOL retrocession program. Built the layer structure engine with <strong>auto-calculated priorities (Priority(n) = Cover(n-1) + Priority(n-1))</strong> supporting both Main Layers (reinstatable, with adjustment premiums) and Reporter Layers (catastrophic loss absorption). Designed the GNPI Adjustment engine \u2014 triggered when revised GNPI exceeds estimated GNPI at treaty expiry, computing layer-wise adjustment premiums (Excess GNPI &times; Rate of Adjustment). Built MDP Statement generation with installment-wise tracking and PPW-90-day payment rule enforcement. Implemented separate recovery flows for NICL Program and PRCL Program with debit note generation and reinstatement premium computation. Managed the IOM-based EGNPI collection workflow from Treaty and Facultative departments.",
+        "impacts": [
+          "Automated multi-layer XOL arithmetic for multi-billion rupee programs",
+          "Systematic tracking of MDP installments across layers",
+          "Separate NICL/PRCL program management",
+          "GNPI adjustment automation at treaty expiry"
+        ]
+      },
+      {
+        "id": "cs5",
+        "number": "CS\u201305",
+        "title": "Excess of Loss (XOL) Program Management",
+        "client": "PRCL \u2014 Foreign Treaty Department",
+        "tags": ["Multi-billion PKR Programs", "Layer Arithmetic", "MDP Tracking"],
+        "summary": "Built the XOL Program Management module automating layer arithmetic, competitive broker bidding, MDP installment tracking, and GNPI adjustments for multi-billion rupee programs \u2014 including Guy Carpenter London's 100% placement of PRCL Non-Marine Risk XOL with GNPI of PKR 2.07 billion.",
+        "challenge": "Managing PRCL's XOL protection program involved coordinating between two distinct programs (PRCL and NICL), designing multi-layer structures, processing competitive bids from international brokers, and tracking MDP installments across multiple layers and years \u2014 all manually.",
+        "solution": "Built the XOL Program Management module handling: IOM-based EGNPI collection from Treaty and Facultative departments, layer structure design with <strong>auto-calculated priorities (Priority(n) = Cover(n-1) + Priority(n-1))</strong>, competitive bidding screen with multi-broker MDP rate comparison, Foreign Treaty Slip with placement chart and payment schedule, GNPI Adjustment engine, MDP Statement generation (layer/installment-wise), and reinstatement premium calculation. Real-world implementation: <strong>Guy Carpenter London appointed as broker for 100% placement of PRCL Non-Marine Risk XOL with GNPI of PKR 2.07 billion.</strong>",
+        "impacts": [
+          "Automated layer arithmetic for multi-billion PKR XOL programs",
+          "Systematic MDP tracking across layers and installments",
+          "Ensured retrocession of net exposure to protect PRCL solvency",
+          "Dual-program (PRCL + NICL) management in a single system"
+        ]
+      },
+      {
+        "id": "cs6",
+        "number": "CS\u201306",
+        "title": "Retro-Facultative \u2014 Foreign Risk Placement",
+        "client": "PRCL \u2014 Retrocession Department",
+        "tags": ["PEPRA Compliance", "Foreign Placement", "Broker Bidding", "Multi-Currency"],
+        "summary": "Designed the complete Retro-Facultative module digitizing PRCL's foreign risk placement pipeline \u2014 from PEPRA-compliant two-envelope tendering through multi-currency settlement \u2014 achieving a 15% reduction in recovery errors within the first two operational cycles.",
+        "challenge": "PRCL's mechanism for placing individual high-value risks in foreign markets was entirely paper-driven. The process involved PEPRA-compliant competitive bidding with international brokers, complex premium/commission dual-side calculations, aviation-specific adjustment engines (layups-based), and recovery workflows across multiple currencies \u2014 all handled through manual documents and email chains.",
+        "solution": "Designed the complete Retro-Facultative module covering: PEPRA-compliant single-stage two-envelope tendering workflow with IPC approval, multi-tab Request Note (Bidding, General Information, Policy Information, Premium Commission Working, Risk Situation with CRESTA Zone auto-application), automated Underwriting Position summary generation, foreign placement management with syndicate/security share breakdowns, Note Sheet Summary for approval routing (Director UW &rarr; ED UW), and payment advice generation (Credit/Debit). Built class-specific adjustment engines \u2014 Aviation adjustments based on layups documents (actual flights-flown vs. estimated) and Aerospace adjustments for forex rate differentials between NICL payment and broker payment dates. Designed the retro recovery workflow: when a cedent reports a paid loss, the system generates debit notes to the foreign broker for the broker's share and credit advice to pay the cedent for both the broker's portion and PRCL's retained portion.",
+        "impacts": [
+          "15% reduction in recovery errors within first two operational cycles",
+          "PEPRA/SECP procurement compliance enforced digitally",
+          "End-to-end digitization of foreign risk placement pipeline",
+          "Multi-currency settlement automation"
+        ]
+      },
+      {
+        "id": "cs7",
+        "number": "CS\u201307",
+        "title": "Retakaful Module (Islamic Reinsurance)",
+        "client": "PRCL \u2014 Window Retakaful Operations (WRTO)",
+        "tags": ["Shariah-Compliant", "Wakala", "Mudaraba"],
+        "summary": "Designed a parallel Shariah-compliant Retakaful track within PRUDENT through structured terminology substitution and transaction-level GL segregation \u2014 making PRCL a cornerstone of Pakistan's Islamic insurance infrastructure without building a separate system.",
+        "challenge": "PRCL needed to serve Pakistan's growing Islamic finance/Takaful market through a Shariah-compliant digital platform while maintaining legal and operational segregation from conventional reinsurance operations \u2014 a requirement under SECP window takaful regulations.",
+        "solution": "Designed a parallel Retakaful track within PRUDENT by implementing a <strong>structured terminology substitution architecture</strong>. Mapped every conventional term to its Takaful equivalent (Premium&rarr;Contribution, Commission&rarr;Rebate, Underwriting Profit&rarr;Surplus, Sum Insured&rarr;Sum Covered, etc.) across all screens, reports, and documents. Implemented Wakala fee calculation (drawn from Participant Retakaful Fund and Shareholder Fund), Mudaraba profit-sharing logic on investment returns, and Surplus Distribution workflows. Enforced transaction-level segregation between PRCL conventional and PRCL-WRTO operations, with GL routing to separate PRTF and Shareholder Fund ledgers via Oracle EBS integration. Covered all business classes: Fire, Marine, Engineering, Accident, Aviation \u2014 treaty and facultative retakaful.",
+        "impacts": [
+          "Enabled PRCL to serve all domestic Takaful companies",
+          "Full SECP compliance for Window Retakaful Operations",
+          "Zero separate system build required \u2014 100% architecture reuse",
+          "Cornerstone of Pakistan's Islamic insurance infrastructure"
+        ]
+      },
+      {
+        "id": "cs8",
+        "number": "CS\u201308",
+        "title": "Data Migration &amp; Reconciliation",
+        "client": "PRCL \u2014 All Departments",
+        "tags": ["Legacy Data", "60+ Years", "Multi-Module Mapping", "Reconciliation"],
+        "summary": "Led the complete data migration strategy covering 60+ years of PRCL operational history \u2014 mapping treaty, facultative, claim, retrocession, and financial records from COBOL-era systems, Excel, and paper files into PRUDENT's multi-module architecture with full financial reconciliation.",
+        "challenge": "PRCL had accumulated operational data from 1964 through Q2 2025 \u2014 over 60 years of treaty, facultative, claim, retrocession, and financial records across legacy systems (COBOL-era RMS), Excel spreadsheets, and paper files. This data needed to be mapped, migrated, and reconciled into PRUDENT's multi-module architecture, where a single historical record could map across Treaty, Facultative, Claims, Retrocession, and Financial modules simultaneously.",
+        "solution": "Led the complete data migration strategy covering 60+ years of reinsurance operational history. Designed the <strong>multi-module data mapping framework</strong> \u2014 each legacy record was analyzed and mapped to its corresponding touchpoints across Treaty Slips, Facultative Request Notes, Claim records, Retrocession placements, and GL entries. Built reconciliation workflows to validate migrated data against source records, ensuring financial integrity across premium, commission, loss, and outstanding balances. Managed the mapping of legacy data structures (flat-file and spreadsheet formats) into PRUDENT's normalized relational schema. Coordinated with all five underwriting departments plus Finance to validate historical accuracy and resolve mapping conflicts \u2014 particularly for records predating digital systems where paper-to-digital conversion introduced ambiguity.",
+        "impacts": [
+          "60+ years of operational data successfully mapped and migrated",
+          "Cross-module data integrity validated",
+          "Zero-loss migration of financial records",
+          "Historical continuity maintained from 1964 to present"
+        ]
+      },
+      {
+        "id": "cs9",
+        "number": "CS\u201309",
+        "title": "UAT &amp; Quality Assurance",
+        "client": "PRCL \u2014 All Business Units",
+        "tags": ["10 UAT Cycles", "5 Modules", "Dual Business Structure"],
+        "summary": "Led 10 modular UAT cycles across 5 core modules under dual business structures (Conventional Reinsurance and Retakaful) \u2014 validating end-to-end workflows from data entry through multi-level approval chains to financial output, culminating in 3 major production releases.",
+        "challenge": "Validating a national-scale reinsurance ERP required testing across 5 distinct functional modules, each with complex business logic, multi-level approval workflows, and cross-module data dependencies \u2014 all under two parallel business structures (Conventional Reinsurance and Retakaful) with different terminology, compliance requirements, and fund segregation rules.",
+        "solution": "Led 10 modular UAT cycles across 5 core modules (Treaty, Facultative, Claims, Retrocession, XOL), with each module tested under both the Conventional Reinsurance and Retakaful business structures. Designed UAT test scenarios grounded in real operational data \u2014 actual treaty slips, live facultative request notes, historical claim records, and production retrocession placements. Built test matrices covering end-to-end workflows: from data entry through multi-level approval chains to financial output validation (Debit/Credit Notes, GL postings). Managed defect triage and resolution coordination between business users (11+ claim department users, underwriting officers across 5 departments) and the development team. Validated cross-module integration \u2014 ensuring that Facultative policy data correctly auto-populated in Claims, Treaty codes mapped accurately to GL entries, and Retrocession recovery calculations aligned with layer structures.",
+        "impacts": [
+          "10 UAT cycles completed across 5 modules",
+          "Dual business structure validation (Reinsurance + Retakaful)",
+          "Cross-module integration verified end-to-end",
+          "3 major release cycles delivered to production"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Tools &amp; Methodologies",
+    "subtitle": "A practitioner's toolkit built for enterprise-scale requirements engineering and system design.",
+    "groups": [
+      {
+        "title": "Analysis",
+        "tags": ["Requirements Engineering", "SQL Data Validation", "UAT Strategy Design"]
+      },
+      {
+        "title": "Tools",
+        "tags": ["Teamwork", "Visio", "Axure", "Balsamiq", "SQL Server", "Advanced Excel"]
+      },
+      {
+        "title": "Methodologies",
+        "tags": ["Agile / Scrum", "IBM Design Thinking", "Waterfall-to-Agile"]
+      },
+      {
+        "title": "Domain Systems",
+        "tags": ["Reinsurance ERP (PRUDENT)", "PHP / Java Microservices", "Multi-currency Settlement", "Oracle EBS"]
+      }
+    ]
+  },
+  "timeline": {
+    "heading": "Career Journey",
+    "subtitle": "From product-focused digital delivery to becoming Pakistan's foremost reinsurance domain architect.",
+    "items": [
+      {
+        "period": "Nov 2020 \u2013 Present",
+        "role": "Senior Reinsurance Consultant (Lead Business Analyst)",
+        "company": "<strong>Sapphire Consulting Services</strong> \u2014 Client: Pakistan Reinsurance Company Limited (PRCL)",
+        "description": "Sole domain architect for PRUDENT ERP \u2014 Pakistan's national reinsurance management platform. Designed and delivered 7 core modules (Treaty, Facultative, Claims, Retrocession, XOL, Retakaful, Data Migration) serving 100+ cedants across all non-life lines. Authored complete FSD documentation, led 10 UAT cycles, managed 3 major release cycles. Single point of domain knowledge between PRCL business stakeholders and the development team."
+      },
+      {
+        "period": "Sep 2019 \u2013 Nov 2020",
+        "role": "Business Analyst / Product Owner",
+        "company": "<strong>Appicoders</strong>",
+        "description": "Managed product backlogs and sprint planning for digital solutions. Bridged client requirements with engineering teams, conducted stakeholder workshops, and delivered requirements documentation for web and mobile platforms. Developed foundation skills in Agile delivery and iterative development that later underpinned ERP-scale reinsurance implementation work."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Academic &amp; Professional Credentials",
+    "items": [
+      { "icon": "🎓", "degree": "B.S. Software Engineering", "issuer": "University of Karachi" },
+      { "icon": "🏅", "degree": "Enterprise Design Thinking Practitioner", "issuer": "IBM" },
+      { "icon": "📜", "degree": "Agile Requirements Foundation", "issuer": "LinkedIn Learning" },
+      { "icon": "💾", "degree": "SQL Certified \u2014 Basic &amp; Intermediate", "issuer": "HackerRank" }
+    ]
+  },
+  "metrics": {
+    "heading": "Delivered at Scale",
+    "subtitle": "Quantified results across 7.5+ years of national reinsurance domain architecture.",
+    "items": [
+      { "target": 7.5,  "suffix": "+", "decimal": true,  "label": "Years in Reinsurance Domain" },
+      { "target": 100,  "suffix": "+", "decimal": false, "label": "Cedants Served" },
+      { "target": 7,    "suffix": "",  "decimal": false, "label": "Core Modules Designed" },
+      { "target": 10,   "suffix": "",  "decimal": false, "label": "UAT Cycles Led" },
+      { "target": 60,   "suffix": "+", "decimal": false, "label": "Years of Data Migrated" },
+      { "target": 3,    "suffix": "",  "decimal": false, "label": "Major Releases Delivered" }
+    ]
+  },
+  "contact": {
+    "intro": "Open to Senior Business Analyst, Domain Architect, and Reinsurance Product Owner roles. Whether you're building a reinsurance platform, modernizing legacy systems, or entering the Islamic insurance space \u2014 let's talk.",
+    "email": "pervaiz.talha@outlook.com",
+    "phone": "+92 307 3867496",
+    "location": "Karachi, Pakistan \u2014 Open to Relocation",
+    "linkedin": "https://www.linkedin.com/in/talha-pervaiz-75433b139/",
+    "cta_title": "7.5 years. One national reinsurer. The entire reinsurance stack.",
+    "cta_text": "From treaty statistics engine to Retakaful Shariah compliance \u2014 I've designed every layer of a national reinsurance ERP. If you need someone who can translate complex reinsurance domain logic into functional specifications that engineers can actually build \u2014 I'm that person."
+  },
+  "footer": {
+    "text": "\u00a9 2026 Talha Pervaiz",
+    "tagline": "Designed for professionals who build the systems behind the systems."
+  }
+}
