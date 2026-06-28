@@ -1,0 +1,200 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: src/uploads
+public_folder: /uploads
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - name: "content"
+        label: "All Portfolio Content"
+        file: "src/content.json"
+        format: json
+        fields:
+
+          # ── SITE ─────────────────────────────────────────────────────────
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Page Title (browser tab)", name: "title", widget: "string" }
+
+          # ── HERO ─────────────────────────────────────────────────────────
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Availability Badge Text", name: "badge", widget: "string" }
+              - { label: "Name Line 1", name: "name_line1", widget: "string" }
+              - { label: "Name Line 2", name: "name_line2", widget: "string" }
+              - { label: "Professional Title", name: "title", widget: "string" }
+              - label: "Tagline (HTML allowed)"
+                name: "tagline"
+                widget: "text"
+                hint: "You can use <strong> tags for bold text."
+
+          # ── ABOUT ────────────────────────────────────────────────────────
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                label_singular: "Paragraph"
+                field:
+                  label: "Paragraph (HTML allowed)"
+                  name: "item"
+                  widget: "text"
+              - label: "Stat Cards"
+                name: "stats"
+                widget: "list"
+                label_singular: "Stat"
+                fields:
+                  - { label: "Number / Value", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          # ── EXPERTISE ────────────────────────────────────────────────────
+          - label: "Expertise Section"
+            name: "expertise"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Expertise Cards"
+                name: "cards"
+                widget: "list"
+                label_singular: "Card"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Card Title", name: "title", widget: "string" }
+                  - { label: "Card Description", name: "description", widget: "text" }
+
+          # ── CASE STUDIES ─────────────────────────────────────────────────
+          - label: "Case Studies Section"
+            name: "caseStudies"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Case Studies"
+                name: "studies"
+                widget: "list"
+                label_singular: "Case Study"
+                fields:
+                  - { label: "HTML ID (e.g. cs1)", name: "id", widget: "string" }
+                  - { label: "Case Number (e.g. CS\u201301)", name: "number", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Client", name: "client", widget: "string" }
+                  - label: "Tags"
+                    name: "tags"
+                    widget: "list"
+                    label_singular: "Tag"
+                    field: { label: "Tag", name: "item", widget: "string" }
+                  - { label: "Summary (one paragraph)", name: "summary", widget: "text" }
+                  - label: "Challenge"
+                    name: "challenge"
+                    widget: "text"
+                    hint: "HTML allowed (e.g. <strong> tags)."
+                  - label: "Solution"
+                    name: "solution"
+                    widget: "text"
+                    hint: "HTML allowed. Use &rarr; for arrows, <strong> for emphasis."
+                  - label: "Impact Bullets"
+                    name: "impacts"
+                    widget: "list"
+                    label_singular: "Impact"
+                    field: { label: "Impact Statement", name: "item", widget: "string" }
+
+          # ── SKILLS ───────────────────────────────────────────────────────
+          - label: "Skills Section"
+            name: "skills"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Skill Groups"
+                name: "groups"
+                widget: "list"
+                label_singular: "Group"
+                fields:
+                  - { label: "Group Title", name: "title", widget: "string" }
+                  - label: "Tags"
+                    name: "tags"
+                    widget: "list"
+                    label_singular: "Skill Tag"
+                    field: { label: "Skill", name: "item", widget: "string" }
+
+          # ── TIMELINE ─────────────────────────────────────────────────────
+          - label: "Experience Timeline"
+            name: "timeline"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Timeline Items"
+                name: "items"
+                widget: "list"
+                label_singular: "Role"
+                fields:
+                  - { label: "Period (e.g. Nov 2020 \u2013 Present)", name: "period", widget: "string" }
+                  - { label: "Job Title / Role", name: "role", widget: "string" }
+                  - { label: "Company (HTML allowed for bold)", name: "company", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ── EDUCATION ────────────────────────────────────────────────────
+          - label: "Education & Certifications"
+            name: "education"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - label: "Education Items"
+                name: "items"
+                widget: "list"
+                label_singular: "Credential"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Degree / Certification Title", name: "degree", widget: "string" }
+                  - { label: "Issuing Institution", name: "issuer", widget: "string" }
+
+          # ── METRICS ──────────────────────────────────────────────────────
+          - label: "Metrics / Impact Numbers"
+            name: "metrics"
+            widget: "object"
+            fields:
+              - { label: "Section Heading", name: "heading", widget: "string" }
+              - { label: "Section Subtitle", name: "subtitle", widget: "text" }
+              - label: "Metric Cards"
+                name: "items"
+                widget: "list"
+                label_singular: "Metric"
+                fields:
+                  - { label: "Target Number", name: "target", widget: "number", value_type: "float" }
+                  - { label: "Suffix (e.g. + or leave blank)", name: "suffix", widget: "string", required: false }
+                  - { label: "Show Decimal (e.g. 7.5)", name: "decimal", widget: "boolean", default: false }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          # ── CONTACT ──────────────────────────────────────────────────────
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Intro Paragraph", name: "intro", widget: "text" }
+              - { label: "Email Address", name: "email", widget: "string" }
+              - { label: "Phone Number", name: "phone", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+              - { label: "CTA Box Title", name: "cta_title", widget: "string" }
+              - { label: "CTA Box Body Text", name: "cta_text", widget: "text" }
+
+          # ── FOOTER ───────────────────────────────────────────────────────
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Copyright Text (e.g. \u00a9 2026 Talha Pervaiz)", name: "text", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
